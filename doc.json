@@ -1,16 +1,15 @@
 {
     "17f70712-4530-42d0-ba0f-fa25bcbf2ddc": {
-      "id": "17f70712-4530-42d0-ba0f-fa25bcbf2ddc",
-      "name": "Aquin 2.8 coming soon.",
-      "description": "Updated documentation for Aquin 2.8 coming soon.",
-      "homepage": "https://app.aquin.app",
-      "style": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/17f70712-4530-42d0-ba0f-fa25bcbf2ddc/chrome.css",
-      "readme": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/17f70712-4530-42d0-ba0f-fa25bcbf2ddc/readme.md",
-      "image": "https://i.imgur.com/SmQiVq7.png",
-      "author": "Aquin",
-      "version": "2.8.0",
-      "isDarkMode": true,
-      "isColorTheme": true,
-    },
+        "id": "17f70712-4530-42d0-ba0f-fa25bcbf2ddc",
+        "name": "Aquin 2.8 coming soon.",
+        "description": "Updated documentation for Aquin 2.8 coming soon.",
+        "homepage": "https://app.aquin.app",
+        "style": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/17f70712-4530-42d0-ba0f-fa25bcbf2ddc/chrome.css",
+        "readme": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/17f70712-4530-42d0-ba0f-fa25bcbf2ddc/readme.md",
+        "image": "https://i.imgur.com/SmQiVq7.png",
+        "author": "Aquin",
+        "version": "2.8.0",
+        "isDarkMode": true,
+        "isColorTheme": true
+    }
 }
-  
