@@ -11,7 +11,6 @@
         "isDarkMode": true,
         "isColorTheme": true
     },
-
     "17f70712-1234-42d0-ba0f-fa25bcbf2ddc": {
         "id": "17f70712-1234-42d0-ba0f-fa25bcbf2ddc",
         "name": "Navigation Button",
@@ -24,7 +23,6 @@
         "isDarkMode": true,
         "isColorTheme": true
     },
-
     "17f70712-1256-42d0-ba0f-fa25bcbf2ddc": {
         "id": "17f70712-1256-42d0-ba0f-fa25bcbf2ddc",
         "name": "Composer",
@@ -37,7 +35,6 @@
         "isDarkMode": true,
         "isColorTheme": true
     },
-
     "17f70712-2353-42d0-ba0f-fa25bcbf2ddc": {
         "id": "17f70712-2353-42d0-ba0f-fa25bcbf2ddc",
         "name": "Sidebar",
@@ -50,7 +47,6 @@
         "isDarkMode": true,
         "isColorTheme": true
     },
-
     "17f70712-6425-42d0-ba0f-fa25bcbf2ddc": {
         "id": "17f70712-6425-42d0-ba0f-fa25bcbf2ddc",
         "name": "Quick Settings",
@@ -63,7 +59,6 @@
         "isDarkMode": true,
         "isColorTheme": true
     },
-
     "17f70712-1963-42d0-ba0f-fa25bcbf2ddc": {
         "id": "17f70712-1963-42d0-ba0f-fa25bcbf2ddc",
         "name": "AI Responses",
@@ -76,7 +71,6 @@
         "isDarkMode": true,
         "isColorTheme": true
     },
-
     "17f70712-8334-42d0-ba0f-fa25bcbf2ddc": {
         "id": "17f70712-8334-42d0-ba0f-fa25bcbf2ddc",
         "name": "TTS & STT",
@@ -89,7 +83,6 @@
         "isDarkMode": true,
         "isColorTheme": true
     },
-
     "17f70712-1312-42d0-ba0f-fa25bcbf2ddc": {
         "id": "17f70712-1312-42d0-ba0f-fa25bcbf2ddc",
         "name": "Model Cards",
@@ -102,7 +95,6 @@
         "isDarkMode": true,
         "isColorTheme": true
     },
-
     "17f70712-7454-42d0-ba0f-fa25bcbf2ddc": {
         "id": "17f70712-7454-42d0-ba0f-fa25bcbf2ddc",
         "name": "Files and Collections",
@@ -115,7 +107,6 @@
         "isDarkMode": true,
         "isColorTheme": true
     },
-
     "17f70712-0475-42d0-ba0f-fa25bcbf2ddc": {
         "id": "17f70712-0475-42d0-ba0f-fa25bcbf2ddc",
         "name": "Files and Collections deep",
@@ -128,7 +119,6 @@
         "isDarkMode": true,
         "isColorTheme": true
     },
-
     "17f70712-0585-42d0-ba0f-fa25bcbf2ddc": {
         "id": "17f70712-0585-42d0-ba0f-fa25bcbf2ddc",
         "name": "Commands",
@@ -141,7 +131,6 @@
         "isDarkMode": true,
         "isColorTheme": true
     },
-
     "17f70712-9487-42d0-ba0f-fa25bcbf2ddc": {
         "id": "17f70712-9487-42d0-ba0f-fa25bcbf2ddc",
         "name": "Shortcuts",
@@ -149,84 +138,6 @@
         "homepage": "https://app.aquin.app",
         "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/Doc12.md",
         "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/Doc12.png",
-        "author": "Aquin",
-        "version": "2.8.0",
-        "isDarkMode": true,
-        "isColorTheme": true
-    },
-
-    "17f70712-9575-42d0-ba0f-fa25bcbf2ddc": {
-        "id": "17f70712-9575-42d0-ba0f-fa25bcbf2ddc",
-        "name": "Pre-Prompts",
-        "description": "Updated documentation for Aquin 2.8 coming soon.",
-        "homepage": "https://app.aquin.app",
-        "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/Doc13.md",
-        "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/Doc13.png",
-        "author": "Aquin",
-        "version": "2.8.0",
-        "isDarkMode": true,
-        "isColorTheme": true
-    },
-
-    "17f70712-9564-42d0-ba0f-fa25bcbf2ddc": {
-        "id": "17f70712-9564-42d0-ba0f-fa25bcbf2ddc",
-        "name": "Presets",
-        "description": "Updated documentation for Aquin 2.8 coming soon.",
-        "homepage": "https://app.aquin.app",
-        "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/Doc14.md",
-        "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/Doc14.png",
-        "author": "Aquin",
-        "version": "2.8.0",
-        "isDarkMode": true,
-        "isColorTheme": true
-    },
-
-    "17f70712-9857-42d0-ba0f-fa25bcbf2ddc": {
-        "id": "17f70712-9857-42d0-ba0f-fa25bcbf2ddc",
-        "name": "No Code Custom Tools",
-        "description": "Updated documentation for Aquin 2.8 coming soon.",
-        "homepage": "https://app.aquin.app",
-        "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/Doc15.md",
-        "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/Doc15.png",
-        "author": "Aquin",
-        "version": "2.8.0",
-        "isDarkMode": true,
-        "isColorTheme": true
-    },
-
-    "17f70712-9584-42d0-ba0f-fa25bcbf2ddc": {
-        "id": "17f70712-9584-42d0-ba0f-fa25bcbf2ddc",
-        "name": "No Code Custom AI Assistants",
-        "description": "Updated documentation for Aquin 2.8 coming soon.",
-        "homepage": "https://app.aquin.app",
-        "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/Doc16.md",
-        "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/Doc16.png",
-        "author": "Aquin",
-        "version": "2.8.0",
-        "isDarkMode": true,
-        "isColorTheme": true
-    },
-
-    "17f70712-9686-42d0-ba0f-fa25bcbf2ddc": {
-        "id": "17f70712-9686-42d0-ba0f-fa25bcbf2ddc",
-        "name": "Manage Your Profile",
-        "description": "Updated documentation for Aquin 2.8 coming soon.",
-        "homepage": "https://app.aquin.app",
-        "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/Doc17.md",
-        "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/Doc17.png",
-        "author": "Aquin",
-        "version": "2.8.0",
-        "isDarkMode": true,
-        "isColorTheme": true
-    },
-
-    "17f70712-9375-42d0-ba0f-fa25bcbf2ddc": {
-        "id": "17f70712-9375-42d0-ba0f-fa25bcbf2ddc",
-        "name": "Workspaces",
-        "description": "Updated documentation for Aquin 2.8 coming soon.",
-        "homepage": "https://app.aquin.app",
-        "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/Doc18.md",
-        "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/Doc18.png",
         "author": "Aquin",
         "version": "2.8.0",
         "isDarkMode": true,
