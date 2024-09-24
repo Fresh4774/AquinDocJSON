@@ -1,4 +1,7 @@
+# Aquin 2.8 Coming Soon
 
-Default Unified Extension Menu in Zen has lengthy description which added extra width on it. This theme will remove the Extension header and description, results on efficient panel size.
+The Documentation update for Aquin 2.8 is coming soon.
 
-[Go here if you want to submit issue related to this theme](https://github.com/KiKaraage/ArcWTF/issues/new?assignees=KiKaraage&labels=Zen+Themes&projects=&template=zen-browser-theme-issue.md&title=%5BZBT%5D+)
+Team Aquin is on it. 
+
+[Try Aquin](https://app.aquin.app).
