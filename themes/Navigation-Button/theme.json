@@ -1,0 +1,11 @@
+{
+    "id": "Navigation-Button",
+    "name": "Cleaner Extension Menu",
+    "description": "Remove header and reduce width of the Unified Extension Menu in Zen",
+    "homepage": "",
+    "style": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/Navigation-Button/chrome.css",
+    "readme": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/Navigation-Button/readme.md",
+    "image": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/Navigation-Button/image.png",
+    "author": "KiKaraage",
+    "version": "1.0.0"
+}
