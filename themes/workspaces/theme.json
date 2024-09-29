@@ -1,11 +1,11 @@
 {
-"id": "Workspaces", 
+"id": "workspaces", 
     "name": "Workspaces", 
     "description": "A simple theme that adds a bit of padding to the right of the exit button", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
-    "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Workspaces/chrome.css",
-    "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Workspaces/readme.md",
-    "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Workspaces/image.png", 
+    "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/workspaces/chrome.css",
+    "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/workspaces/readme.md",
+    "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/workspaces/image.png", 
     "author": "ericmackrodt", 
     "version": "1.0.0"
 }
