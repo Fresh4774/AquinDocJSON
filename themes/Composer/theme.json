@@ -1,11 +1,11 @@
 {
-    "id": "Composer",
-    "name": "Cleaner Extension Menu",
-    "description": "Remove header and reduce width of the Unified Extension Menu in Zen",
-    "homepage": "",
+"id": "Composer", 
+    "name": "Composer", 
+    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Composer/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Composer/readme.md",
-    "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Composer/image.png",
-    "author": "KiKaraage",
+    "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Composer/image.png", 
+    "author": "ericmackrodt", 
     "version": "1.0.0"
 }
