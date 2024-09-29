@@ -1,0 +1,11 @@
+{
+"id": "profile", 
+    "name": "Your Profile", 
+    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "homepage": "https://github.com/ericmackrodt/zen-themes/", 
+    "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/profile/chrome.css",
+    "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/profile/readme.md",
+    "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/profile/image.png", 
+    "author": "ericmackrodt", 
+    "version": "1.0.0"
+}

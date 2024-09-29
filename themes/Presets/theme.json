@@ -1,0 +1,11 @@
+{
+"id": "Presets", 
+    "name": "Presets", 
+    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "homepage": "https://github.com/ericmackrodt/zen-themes/", 
+    "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Presets/chrome.css",
+    "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Presets/readme.md",
+    "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Presets/image.png", 
+    "author": "ericmackrodt", 
+    "version": "1.0.0"
+}
