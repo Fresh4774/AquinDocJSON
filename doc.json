@@ -1,14 +1,4 @@
-{      
-    "1e86cf37-a127-4f24-b919-d265b5ce29a0": 
-    {"id": "1e86cf37-a127-4f24-b919-d265b5ce29a0", 
-    "name": "Exit Button Right Padding", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
-    "homepage": "https://github.com/ericmackrodt/zen-themes/", 
-    "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/1e86cf37-a127-4f24-b919-d265b5ce29a0/chrome.css",
-    "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/1e86cf37-a127-4f24-b919-d265b5ce29a0/readme.md",
-    "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/1e86cf37-a127-4f24-b919-d265b5ce29a0/image.png", 
-    "author": "ericmackrodt", 
-    "version": "1.0.0"},
+{
 
 
     "Navigation-Button": 
@@ -19,6 +9,17 @@
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Navigation-Button/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Navigation-Button/readme.md",
     "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Navigation-Button/image.png", 
+    "author": "ericmackrodt", 
+    "version": "1.0.0"},
+
+    "Composer": 
+    {"id": "Composer", 
+    "name": "Exit Button Right Padding", 
+    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "homepage": "https://github.com/ericmackrodt/zen-themes/", 
+    "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Composer/chrome.css",
+    "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Composer/readme.md",
+    "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Composer/image.png", 
     "author": "ericmackrodt", 
     "version": "1.0.0"}
 }
