@@ -1,4 +1,5 @@
 {
+    
     "Navigation-Button": 
     {"id": "Navigation-Button", 
     "name": "Navigation Button", 
@@ -185,4 +186,5 @@
     "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Workspaces/image.png", 
     "author": "ericmackrodt", 
     "version": "1.0.0"}
+
 }
