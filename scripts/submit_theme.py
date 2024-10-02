@@ -38,12 +38,12 @@ class PreferenceTypes(StrEnum):
 
 STYLES_FILE = "chrome.css"
 COLORS_FILE = "colors.json"
-README_FILE = "readme.md"
+README_FILE = "readme.html"
 IMAGE_FILE = "image.png"
 PREFERENCES_FILE = "preferences.json"
 
 TEMPLATE_STYLES_FILE = "./theme-styles.css"
-TEMPLATE_README_FILE = "./theme-readme.md"
+TEMPLATE_README_FILE = "./theme-readme.html"
 TEMPLATE_PREFERENCES_FILE = "./theme-preferences.json"
 
 VALID_OS = set(["linux", "macos", "windows"])

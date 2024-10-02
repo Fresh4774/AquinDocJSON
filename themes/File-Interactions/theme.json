@@ -4,7 +4,7 @@
     "description": "A simple theme that adds a bit of padding to the right of the exit button", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/File-Interactions/chrome.css",
-    "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/File-Interactions/readme.md",
+    "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/File-Interactions/readme.html",
     "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/File-Interactions/image.png", 
     "author": "ericmackrodt", 
     "version": "1.0.0"
