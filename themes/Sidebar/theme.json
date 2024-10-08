@@ -1,7 +1,7 @@
 {
 "id": "Sidebar", 
     "name": "Sidebar", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "description": "From your chats to folders to custom feature hub, sidebar has everything.", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Sidebar/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Sidebar/readme.html",

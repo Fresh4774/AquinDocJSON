@@ -1,7 +1,7 @@
 {
 "id": "profile", 
     "name": "Your Profile", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "description": "Customize your profile, make your profile exactly like the cool person you are.", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/profile/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/profile/readme.html",

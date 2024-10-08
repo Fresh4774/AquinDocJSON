@@ -1,7 +1,7 @@
 {
 "id": "TTS-and-STT", 
     "name": "TTS and STT", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "description": "Text-to-speech and speech-to-text features on all AI responses.", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/TTS-and-STT/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/TTS-and-STT/readme.html",

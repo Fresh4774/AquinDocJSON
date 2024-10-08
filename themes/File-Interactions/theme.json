@@ -1,7 +1,7 @@
 {
 "id": "File-Interactions", 
     "name": "File Interactions", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "description": "Upload files, send them to Aquin, and let it interact with it.", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/File-Interactions/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/File-Interactions/readme.html",

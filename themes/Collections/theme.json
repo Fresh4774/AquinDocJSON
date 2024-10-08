@@ -1,7 +1,7 @@
 {
 "id": "Collections", 
     "name": "Collections of Files", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "description": "Make folders of your uploaded files, and let Aquin interact all at once.", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Collections/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Collections/readme.html",

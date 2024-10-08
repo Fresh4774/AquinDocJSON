@@ -1,7 +1,7 @@
 {
 "id": "Commands", 
     "name": "Commands", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "description": "Use @ ! # / and save few clicks.", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Commands/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Commands/readme.html",

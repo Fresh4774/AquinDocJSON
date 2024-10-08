@@ -1,7 +1,7 @@
 {
 "id": "Presets", 
     "name": "Presets", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "description": "Make your own presets to communicate with Aquin faster and better.", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Presets/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Presets/readme.html",

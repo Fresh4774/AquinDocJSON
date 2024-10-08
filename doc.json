@@ -3,7 +3,7 @@
     "Navigation-Button": 
     {"id": "Navigation-Button", 
     "name": "Navigation Button", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "description": "Navigate between features, while being in your pace and ease.", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Navigation-Button/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Navigation-Button/readme.html",
@@ -14,7 +14,7 @@
     "Composer": 
     {"id": "Composer", 
     "name": "Composer", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "description": "This is where everything happens, the root of working with Aquin.", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Composer/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Composer/readme.html",
@@ -25,7 +25,7 @@
     "Sidebar": 
     {"id": "Sidebar", 
     "name": "Sidebar", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "description": "From your chats to folders to custom feature hub, sidebar has everything.", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Sidebar/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Sidebar/readme.html",
@@ -36,7 +36,7 @@
     "Quick-Settings": 
     {"id": "Quick-Settings", 
     "name": "Quick Settings", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "description": "Your one and only dropdown to handle all your custom features and let you stay in your awesome speed.", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Quick-Settings/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Quick-Settings/readme.html",
@@ -47,7 +47,7 @@
     "AI-Responses": 
     {"id": "AI-Responses", 
     "name": "AI Responses", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "description": "Text generation, Code generation, Image generation and more.", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/AI-Responses/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/AI-Responses/readme.html",
@@ -58,7 +58,7 @@
     "TTS-and-STT": 
     {"id": "TTS-and-STT", 
     "name": "TTS and STT", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "description": "Text-to-speech and speech-to-text features on all AI responses.", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/TTS-and-STT/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/TTS-and-STT/readme.html",
@@ -69,7 +69,7 @@
     "Model-Cards": 
     {"id": "Model-Cards", 
     "name": "Model Cards", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "description": "Pick from the best LLMs, from OpenAI and Groq.", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Model-Cards/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Model-Cards/readme.html",
@@ -80,7 +80,7 @@
     "File-Interactions": 
     {"id": "File-Interactions", 
     "name": "File Interactions", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "description": "Upload files, send them to Aquin, and let it interact with it.", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/File-Interactions/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/File-Interactions/readme.html",
@@ -91,7 +91,7 @@
     "Collections": 
     {"id": "Collections", 
     "name": "Collections of Files", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "description": "Make folders of your uploaded files, and let Aquin interact all at once.", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Collections/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Collections/readme.html",
@@ -102,7 +102,7 @@
     "Commands": 
     {"id": "Commands", 
     "name": "Commands", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "description": "Use @ ! # / and save few clicks.", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Commands/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Commands/readme.html",
@@ -113,7 +113,7 @@
     "Shortcuts": 
     {"id": "Shortcuts", 
     "name": "Shortcuts", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "description": "Use your keyboard, use Aquin's shortcuts and stay productive.", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Shortcuts/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Shortcuts/readme.html",
@@ -124,7 +124,7 @@
     "Pre-prompts": 
     {"id": "Pre-prompts", 
     "name": "Pre-prompts", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "description": "Make your pre-prompts and use it with quick settings or commands to get into the game without wating a second.", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Pre-prompts/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Pre-prompts/readme.html",
@@ -135,7 +135,7 @@
     "Presets": 
     {"id": "Presets", 
     "name": "Presets", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "description": "Make your own presets to communicate with Aquin faster and better.", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Presets/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Presets/readme.html",
@@ -146,7 +146,7 @@
     "tools": 
     {"id": "tools", 
     "name": "Custom no code tools", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "description": "Build your own custom no code tools and give extra powers to Aquin.", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/tools/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/tools/readme.html",
@@ -157,7 +157,7 @@
     "assistants": 
     {"id": "assistants", 
     "name": "Build your own AI assistants", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "description": "Build your own no code custom AI assisants in few clicks.", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/assistants/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/assistants/readme.html",
@@ -168,7 +168,7 @@
     "profile": 
     {"id": "profile", 
     "name": "Your Profile", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "description": "Customize your profile, make your profile exactly like the cool person you are.", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/profile/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/profile/readme.html",
@@ -179,7 +179,7 @@
     "workspaces": 
     {"id": "workspaces", 
     "name": "Workspaces", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "description": "Create multiple workspaces for multi-tasking.", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/workspaces/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/workspaces/readme.html",

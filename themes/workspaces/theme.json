@@ -1,7 +1,7 @@
 {
 "id": "workspaces", 
     "name": "Workspaces", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "description": "Create multiple workspaces for multi-tasking.", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/workspaces/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/workspaces/readme.html",

@@ -1,7 +1,7 @@
 {
 "id": "AI-Responses", 
     "name": "AI Responses", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "description": "Text generation, Code generation, Image generation and more.", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/AI-Responses/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/AI-Responses/readme.html",

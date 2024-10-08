@@ -1,7 +1,7 @@
 {
 "id": "assistants", 
     "name": "Build your own AI assistants", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "description": "Build your own no code custom AI assisants in few clicks.", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/assistants/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/assistants/readme.html",

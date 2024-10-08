@@ -1,7 +1,7 @@
 {
 "id": "Shortcuts", 
     "name": "Shortcuts", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "description": "Use your keyboard, use Aquin's shortcuts and stay productive.", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Shortcuts/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Shortcuts/readme.html",

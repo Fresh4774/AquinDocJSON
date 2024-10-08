@@ -1,7 +1,7 @@
 {
 "id": "Navigation-Button", 
     "name": "Navigation Button", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "description": "Navigate between features, while being in your pace and ease.", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Navigation-Button/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Navigation-Button/readme.html",

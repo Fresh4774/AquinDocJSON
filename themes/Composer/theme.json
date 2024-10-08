@@ -1,7 +1,7 @@
 {
 "id": "Composer", 
     "name": "Composer", 
-    "description": "A simple theme that adds a bit of padding to the right of the exit button", 
+    "description": "This is where everything happens, the root of working with Aquin.", 
     "homepage": "https://github.com/ericmackrodt/zen-themes/", 
     "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Composer/chrome.css",
     "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Composer/readme.html",
