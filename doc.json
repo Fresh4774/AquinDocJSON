@@ -1,179 +1,152 @@
 {
-
-    "Navigation-Button": 
-    {"id": "Navigation-Button", 
-    "name": "Navigation Button", 
-    "description": "Navigate between features, while being in your pace and ease.", 
-    "homepage": "https://github.com/ericmackrodt/zen-themes/", 
-    "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Navigation-Button/chrome.css",
-    "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Navigation-Button/readme.html",
-    "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Navigation-Button/image.png", 
-    "author": "ericmackrodt", 
-    "version": "1.0.0"},
-
-    "Composer": 
-    {"id": "Composer", 
-    "name": "Composer", 
-    "description": "This is where everything happens, the root of working with Aquin.", 
-    "homepage": "https://github.com/ericmackrodt/zen-themes/", 
-    "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Composer/chrome.css",
-    "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Composer/readme.html",
-    "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Composer/image.png", 
-    "author": "ericmackrodt", 
-    "version": "1.0.0"},
-
-    "Sidebar": 
-    {"id": "Sidebar", 
-    "name": "Sidebar", 
-    "description": "From your chats to folders to custom feature hub, sidebar has everything.", 
-    "homepage": "https://github.com/ericmackrodt/zen-themes/", 
-    "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Sidebar/chrome.css",
-    "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Sidebar/readme.html",
-    "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Sidebar/image.png", 
-    "author": "ericmackrodt", 
-    "version": "1.0.0"},
-
-    "Quick-Settings": 
-    {"id": "Quick-Settings", 
-    "name": "Quick Settings", 
-    "description": "Your one and only dropdown to handle all your custom features and let you stay in your awesome speed.", 
-    "homepage": "https://github.com/ericmackrodt/zen-themes/", 
-    "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Quick-Settings/chrome.css",
-    "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Quick-Settings/readme.html",
-    "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Quick-Settings/image.png", 
-    "author": "ericmackrodt", 
-    "version": "1.0.0"},
-
-    "AI-Responses": 
-    {"id": "AI-Responses", 
-    "name": "AI Responses", 
-    "description": "Text generation, Code generation, Image generation and more.", 
-    "homepage": "https://github.com/ericmackrodt/zen-themes/", 
-    "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/AI-Responses/chrome.css",
-    "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/AI-Responses/readme.html",
-    "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/AI-Responses/image.png", 
-    "author": "ericmackrodt", 
-    "version": "1.0.0"},
-
-    "TTS-and-STT": 
-    {"id": "TTS-and-STT", 
-    "name": "TTS and STT", 
-    "description": "Text-to-speech and speech-to-text features on all AI responses.", 
-    "homepage": "https://github.com/ericmackrodt/zen-themes/", 
-    "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/TTS-and-STT/chrome.css",
-    "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/TTS-and-STT/readme.html",
-    "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/TTS-and-STT/image.png", 
-    "author": "ericmackrodt", 
-    "version": "1.0.0"},
-
-    "Model-Cards": 
-    {"id": "Model-Cards", 
-    "name": "Model Cards", 
-    "description": "Pick from the best LLMs, from OpenAI and Groq.", 
-    "homepage": "https://github.com/ericmackrodt/zen-themes/", 
-    "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Model-Cards/chrome.css",
-    "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Model-Cards/readme.html",
-    "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Model-Cards/image.png", 
-    "author": "ericmackrodt", 
-    "version": "1.0.0"},
-
-    "File-Interactions": 
-    {"id": "File-Interactions", 
-    "name": "File Interactions", 
-    "description": "Upload files, send them to Aquin, and let it interact with it.", 
-    "homepage": "https://github.com/ericmackrodt/zen-themes/", 
-    "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/File-Interactions/chrome.css",
-    "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/File-Interactions/readme.html",
-    "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/File-Interactions/image.png", 
-    "author": "ericmackrodt", 
-    "version": "1.0.0"},
-
-    "Collections": 
-    {"id": "Collections", 
-    "name": "Collections of Files", 
-    "description": "Make folders of your uploaded files, and let Aquin interact all at once.", 
-    "homepage": "https://github.com/ericmackrodt/zen-themes/", 
-    "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Collections/chrome.css",
-    "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Collections/readme.html",
-    "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Collections/image.png", 
-    "author": "ericmackrodt", 
-    "version": "1.0.0"},
-
-    "Commands": 
-    {"id": "Commands", 
-    "name": "Commands", 
-    "description": "Use @ ! # / and save few clicks.", 
-    "homepage": "https://github.com/ericmackrodt/zen-themes/", 
-    "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Commands/chrome.css",
-    "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Commands/readme.html",
-    "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Commands/image.png", 
-    "author": "ericmackrodt", 
-    "version": "1.0.0"},
-
-    "Shortcuts": 
-    {"id": "Shortcuts", 
-    "name": "Shortcuts", 
-    "description": "Use your keyboard, use Aquin's shortcuts and stay productive.", 
-    "homepage": "https://github.com/ericmackrodt/zen-themes/", 
-    "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Shortcuts/chrome.css",
-    "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Shortcuts/readme.html",
-    "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Shortcuts/image.png", 
-    "author": "ericmackrodt", 
-    "version": "1.0.0"},
-
-    "Pre-prompts": 
-    {"id": "Pre-prompts", 
-    "name": "Pre-prompts", 
-    "description": "Make your pre-prompts and use it with quick settings or commands to get into the game without wating a second.", 
-    "homepage": "https://github.com/ericmackrodt/zen-themes/", 
-    "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Pre-prompts/chrome.css",
-    "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Pre-prompts/readme.html",
-    "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Pre-prompts/image.png", 
-    "author": "ericmackrodt", 
-    "version": "1.0.0"},
-
-    "Presets": 
-    {"id": "Presets", 
-    "name": "Presets", 
-    "description": "Make your own presets to communicate with Aquin faster and better.", 
-    "homepage": "https://github.com/ericmackrodt/zen-themes/", 
-    "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Presets/chrome.css",
-    "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Presets/readme.html",
-    "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Presets/image.png", 
-    "author": "ericmackrodt", 
-    "version": "1.0.0"},
-
-    "assistants": 
-    {"id": "assistants", 
-    "name": "Build your own AI assistants", 
-    "description": "Build your own no code custom AI assisants in few clicks.", 
-    "homepage": "https://github.com/ericmackrodt/zen-themes/", 
-    "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/assistants/chrome.css",
-    "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/assistants/readme.html",
-    "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/assistants/image.png", 
-    "author": "ericmackrodt", 
-    "version": "1.0.0"},
-
-    "profile": 
-    {"id": "profile", 
-    "name": "Your Profile", 
-    "description": "Customize your profile, make your profile exactly like the cool person you are.", 
-    "homepage": "https://github.com/ericmackrodt/zen-themes/", 
-    "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/profile/chrome.css",
-    "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/profile/readme.html",
-    "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/profile/image.png", 
-    "author": "ericmackrodt", 
-    "version": "1.0.0"},
-
-    "workspaces": 
-    {"id": "workspaces", 
-    "name": "Workspaces", 
-    "description": "Create multiple workspaces for multi-tasking.", 
-    "homepage": "https://github.com/ericmackrodt/zen-themes/", 
-    "style": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/workspaces/chrome.css",
-    "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/workspaces/readme.html",
-    "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/workspaces/image.png", 
-    "author": "ericmackrodt", 
-    "version": "1.0.0"}
-
+    "Navigation-Button": {
+        "id": "Navigation-Button",
+        "name": "Navigation Button",
+        "description": "Navigate between features, while being in your pace and ease.",
+        "homepage": "https://github.com/ericmackrodt/zen-themes/",
+        "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Navigation-Button/readme.html",
+        "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Navigation-Button/image.png",
+        "author": "ericmackrodt",
+        "version": "1.0.0"
+    },
+    "Composer": {
+        "id": "Composer",
+        "name": "Composer",
+        "description": "This is where everything happens, the root of working with Aquin.",
+        "homepage": "https://github.com/ericmackrodt/zen-themes/",
+        "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Composer/readme.html",
+        "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Composer/image.png",
+        "author": "ericmackrodt",
+        "version": "1.0.0"
+    },
+    "Sidebar": {
+        "id": "Sidebar",
+        "name": "Sidebar",
+        "description": "From your chats to folders to custom feature hub, sidebar has everything.",
+        "homepage": "https://github.com/ericmackrodt/zen-themes/",
+        "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Sidebar/readme.html",
+        "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Sidebar/image.png",
+        "author": "ericmackrodt",
+        "version": "1.0.0"
+    },
+    "Quick-Settings": {
+        "id": "Quick-Settings",
+        "name": "Quick Settings",
+        "description": "Your one and only dropdown to handle all your custom features and let you stay in your awesome speed.",
+        "homepage": "https://github.com/ericmackrodt/zen-themes/",
+        "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Quick-Settings/readme.html",
+        "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Quick-Settings/image.png",
+        "author": "ericmackrodt",
+        "version": "1.0.0"
+    },
+    "AI-Responses": {
+        "id": "AI-Responses",
+        "name": "AI Responses",
+        "description": "Text generation, Code generation, Image generation and more.",
+        "homepage": "https://github.com/ericmackrodt/zen-themes/",
+        "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/AI-Responses/readme.html",
+        "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/AI-Responses/image.png",
+        "author": "ericmackrodt",
+        "version": "1.0.0"
+    },
+    "TTS-and-STT": {
+        "id": "TTS-and-STT",
+        "name": "TTS and STT",
+        "description": "Text-to-speech and speech-to-text features on all AI responses.",
+        "homepage": "https://github.com/ericmackrodt/zen-themes/",
+        "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/TTS-and-STT/readme.html",
+        "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/TTS-and-STT/image.png",
+        "author": "ericmackrodt",
+        "version": "1.0.0"
+    },
+    "Model-Cards": {
+        "id": "Model-Cards",
+        "name": "Model Cards",
+        "description": "Pick from the best LLMs, from OpenAI and Groq.",
+        "homepage": "https://github.com/ericmackrodt/zen-themes/",
+        "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Model-Cards/readme.html",
+        "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Model-Cards/image.png",
+        "author": "ericmackrodt",
+        "version": "1.0.0"
+    },
+    "File-Interactions": {
+        "id": "File-Interactions",
+        "name": "File Interactions",
+        "description": "Upload files, send them to Aquin, and let it interact with it.",
+        "homepage": "https://github.com/ericmackrodt/zen-themes/",
+        "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/File-Interactions/readme.html",
+        "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/File-Interactions/image.png",
+        "author": "ericmackrodt",
+        "version": "1.0.0"
+    },
+    "Collections": {
+        "id": "Collections",
+        "name": "Collections of Files",
+        "description": "Make folders of your uploaded files, and let Aquin interact all at once.",
+        "homepage": "https://github.com/ericmackrodt/zen-themes/",
+        "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Collections/readme.html",
+        "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Collections/image.png",
+        "author": "ericmackrodt",
+        "version": "1.0.0"
+    },
+    "Commands": {
+        "id": "Commands",
+        "name": "Commands",
+        "description": "Use @ ! # / and save few clicks.",
+        "homepage": "https://github.com/ericmackrodt/zen-themes/",
+        "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Commands/readme.html",
+        "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Commands/image.png",
+        "author": "ericmackrodt",
+        "version": "1.0.0"
+    },
+    "Shortcuts": {
+        "id": "Shortcuts",
+        "name": "Shortcuts",
+        "description": "Use your keyboard, use Aquin's shortcuts and stay productive.",
+        "homepage": "https://github.com/ericmackrodt/zen-themes/",
+        "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Shortcuts/readme.html",
+        "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Shortcuts/image.png",
+        "author": "ericmackrodt",
+        "version": "1.0.0"
+    },
+    "Pre-prompts": {
+        "id": "Pre-prompts",
+        "name": "Pre-prompts",
+        "description": "Make your pre-prompts and use it with quick settings or commands to get into the game without wating a second.",
+        "homepage": "https://github.com/ericmackrodt/zen-themes/",
+        "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Pre-prompts/readme.html",
+        "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Pre-prompts/image.png",
+        "author": "ericmackrodt",
+        "version": "1.0.0"
+    },
+    "Presets": {
+        "id": "Presets",
+        "name": "Presets",
+        "description": "Make your own presets to communicate with Aquin faster and better.",
+        "homepage": "https://github.com/ericmackrodt/zen-themes/",
+        "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Presets/readme.html",
+        "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/Presets/image.png",
+        "author": "ericmackrodt",
+        "version": "1.0.0"
+    },
+    "assistants": {
+        "id": "assistants",
+        "name": "Build your own AI assistants",
+        "description": "Build your own no code custom AI assisants in few clicks.",
+        "homepage": "https://github.com/ericmackrodt/zen-themes/",
+        "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/assistants/readme.html",
+        "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/assistants/image.png",
+        "author": "ericmackrodt",
+        "version": "1.0.0"
+    },
+    "profile": {
+        "id": "profile",
+        "name": "Your Profile",
+        "description": "Customize your profile, make your profile exactly like the cool person you are.",
+        "homepage": "https://github.com/ericmackrodt/zen-themes/",
+        "readme": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/profile/readme.html",
+        "image": "https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/main/themes/profile/image.png",
+        "author": "ericmackrodt",
+        "version": "1.0.0"
+    }
 }
