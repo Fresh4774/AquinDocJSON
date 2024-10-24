@@ -1,49 +1,159 @@
-<div className="flex min-h-screen w-full flex-col">
-	<link rel="stylesheet" href="chrome.css">
-    <main className="my-5 mt-20">
-        <div class="main-div">
-            <main class="AIRespond-section">
-                <div class="AIRespond-section">
-                    <h1>.</h1>
-                    <h1>.</h1>
-                    <p>.</p>
-                    <h1>Building an Assistant</h1>
-                    <p2>Last updated 10/5/2024</p2>
-                    <h2>Overview</h2>
-                    <p>
-                        Building an AI assistant on this platform is intuitive. You can access available assistants or create a new one via the assistant section.
-                    </p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building an Assistant</title>
+    <link rel="stylesheet" href="chrome.css">
+</head>
+<body class="flex min-h-screen w-full flex-col justify-center items-center">
+
+    <main class="my-5 mt-20 w-full flex justify-center">
+        <div class="main-div text-center">
+            <section class="AIRespond-section">
+
+                <!-- New div to center align and justify content -->
+                <div class="header-section flex flex-col items-center justify-center">
+                    <p class="text-center"><i>Last updated 10/5/2024</i></p>
+
+                    <h1 class="text-center">Building an Assistant</h1>
                     
-                    <!-- Placeholder for Image -->
+                    <p class="description text-center">
+                        Discover how to create and manage AI assistants on this platform easily.<br>
+                        Learn about advanced settings and customization options.
+                    </p>
+
                     <figure>
-                        <img src="https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/refs/heads/main/assets/BuildAssistant.png" alt="Overview of AI Assistant section" />
-                        <figcaption>An overview showing how assistants are selected.</figcaption>
+                        <img src="https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/refs/heads/main/assets/BuildAssistant.png" alt="Overview of AI Assistant section">
                     </figure>
-
-                    <h2>Creating a New Assistant</h2>
-                    <p>
-                        If you wish to create a new assistant, click the "Create new assistant" button. You'll be asked to provide a name, description, and an optional image.
-                    </p>
-
-                    <!-- Placeholder for Video -->
-                    <figure>
-                        <video controls>
-                            <source src="https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/refs/heads/main/assets/BuildAssistant.mp4" type="video/mp4" />
-                        </video>
-                        <figcaption>A video demonstrating how to create a new assistant.</figcaption>
-                    </figure>
-
-                    <h2>Advanced Settings</h2>
-                    <p>
-                        In the advanced settings, you can configure options like temperature, context length, and whether profile context or workspace instructions are included in chats.
-                    </p>
-
-                    <h2>Summary</h2>
-                    <p>
-                        Building and managing AI assistants is smooth and flexible, providing a streamlined experience for managing tasks and interactions.
-                    </p>
                 </div>
-            </main>
+
+                <!-- Blog Content -->
+                <h2 class="text-left">Overview</h2>
+                <p>
+                    Building an AI assistant on this platform is intuitive. You can access available assistants or create a new one via the assistant section.
+                </p>
+
+                <h2 class="text-left">Creating a New Assistant</h2>
+                <p>
+                    If you wish to create a new assistant, click the "Create new assistant" button. You'll be asked to provide a name, description, and an optional image.
+                </p>
+
+                <!-- Placeholder for Video -->
+                <figure>
+                    <video controls>
+                        <source src="https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/refs/heads/main/assets/BuildAssistant.mp4" type="video/mp4" />
+                    </video>
+                </figure>
+
+                <h2 class="text-left">Advanced Settings</h2>
+                <p>
+                    In the advanced settings, you can configure options like temperature, context length, and whether profile context or workspace instructions are included in chats.
+                </p>
+
+                <h2 class="text-left">Summary</h2>
+                <p>
+                    Building and managing AI assistants is smooth and flexible, providing a streamlined experience for managing tasks and interactions.
+                </p>
+            </section>
         </div>
-	</main>
-</div>
+    </main>
+
+</body>
+
+<style>
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.main-div {
+  width: 100%;
+  max-width: 800px; /* Limit width for readability */
+}
+
+.header-section {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center align elements */
+  justify-content: center; /* Center justify elements */
+  margin-bottom: 2rem; /* Space below the header section */
+}
+
+.main-div h1 {
+  font-size: 3rem;
+  margin-top: 1rem; 
+  margin-bottom: 1rem;
+  font-weight: 600;
+  text-align: center; /* Center-align heading */
+}
+
+/* Description styling */
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.main-div h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  text-align: left; /* Align subheadings to the left */
+}
+
+.main-div p {
+  font-size: 1.1rem;
+  line-height: 1.75;
+  margin-top: 1rem; 
+  margin-bottom: 2rem;
+}
+
+/* Centered figure styling for images and videos */
+.main-div figure {
+    margin: 2rem 0; /* Space around figures */
+}
+
+/* Image size control */
+.main-div figure img {
+    max-width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional styling */
+    margin: 0 auto; /* Center image */
+}
+
+/* Video size control */
+.main-div figure video {
+    max-width: 100%; /* Make video responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional styling */
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+  /* Adjust image size on smaller screens */
+  .main-div figure img {
+      width: 100%;
+  }
+
+  .main-div figure video {
+      width: 100%; /* Adjust video size */
+  }
+}
+</style>
+</html>

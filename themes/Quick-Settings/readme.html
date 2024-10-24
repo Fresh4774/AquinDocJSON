@@ -1,42 +1,121 @@
-<div className="flex min-h-screen w-full flex-col">
-	<link rel="stylesheet" href="chrome.css">
-    <main className="my-5 mt-20">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Settings Tutorial</title>
+    <link rel="stylesheet" href="chrome.css" />
+</head>
+<body class="flex min-h-screen w-full flex-col">
+
+    <main class="my-5 mt-20">
         <div class="main-div">
-            <main class="quick-settings-section">
-                <div class="quick-settings-section">
-                    <h1>.</h1>
-                    <h1>.</h1>
-                    <p>.</p>
-                    <h1>Quick Settings</h1>
-                    <p2>Last updated 10/5/2024</p2>
+            <section class="quick-settings-section">
 
-                    <h2>Overview</h2>
-                    <p>
-                        The Quick Settings feature allows you to access both presets and assistants simultaneously, simplifying navigation and enhancing efficiency. Quick Settings offer quick access to the most frequently used configurations, helping streamline workflows.
-                    </p>
+                <!-- Last updated above the main heading -->
+                <p class="last-updated">Last updated: October 5, 2024</p>
+                
+                <!-- Main Heading -->
+                <h1>Quick Settings</h1>
 
-                    <!-- Placeholder for Image -->
-                    <figure>
-                        <img src="https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/refs/heads/main/assets/QuickSettings.png" alt="Quick Settings Overview" />
-                        <figcaption>Illustration of Quick Settings for easy access to presets and assistants.</figcaption>
-                    </figure>
+                <h2>Overview</h2>
+                <p>
+                    The Quick Settings feature allows you to access both presets and assistants simultaneously, simplifying navigation and enhancing efficiency. Quick Settings offer quick access to the most frequently used configurations, helping streamline workflows.
+                </p>
 
-                    <h2>Using Quick Settings</h2>
-                    <p>
-                        You can use Quick Settings by clicking the dropdown on the sidebar. Here, you will see your presets and assistants, allowing you to switch between them quickly during interactions.
-                    </p>
+                <!-- Placeholder for Image -->
+                <figure>
+                    <img src="https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/refs/heads/main/assets/QuickSettings.png" alt="Quick Settings Overview" />
+                    <figcaption>Illustration of Quick Settings for easy access to presets and assistants.</figcaption>
+                </figure>
 
-                    <h2>Customization</h2>
-                    <p>
-                        Quick Settings also allow customization of the interface by changing your preset configurations, setting default assistants, or making small adjustments to the system to fit your current needs.
-                    </p>
+                <h2>Using Quick Settings</h2>
+                <p>
+                    You can use Quick Settings by clicking the dropdown on the sidebar. Here, you will see your presets and assistants, allowing you to switch between them quickly during interactions.
+                </p>
 
-                    <h2>Summary</h2>
-                    <p>
-                        Quick Settings enhance productivity by offering immediate access to key features, helping you navigate your workspace with ease and flexibility.
-                    </p>
-                </div>
-            </main>
+                <h2>Customization</h2>
+                <p>
+                    Quick Settings also allow customization of the interface by changing your preset configurations, setting default assistants, or making small adjustments to the system to fit your current needs.
+                </p>
+
+                <h2>Summary</h2>
+                <p>
+                    Quick Settings enhance productivity by offering immediate access to key features, helping you navigate your workspace with ease and flexibility.
+                </p>
+            </section>
         </div>
-	</main>
-</div>
+    </main>
+
+</body>
+
+<style>
+body {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+}
+
+.main-div {
+    width: 100%;
+    max-width: 800px; /* Limit width for readability */
+    margin: 0 auto; /* Center main div */
+}
+
+.quick-settings-section {
+    padding: 2rem; /* Space inside the section */
+}
+
+.quick-settings-section h1 {
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+    font-weight: 600;
+    text-align: center; /* Center-align main heading */
+}
+
+.quick-settings-section h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    font-weight: 500;
+}
+
+.quick-settings-section p {
+    font-size: 1.1rem;
+    line-height: 1.75;
+    margin: 1rem 0;
+}
+
+/* Last updated styling */
+.last-updated {
+    font-size: 0.9rem;
+    text-align: center; /* Center-align updated text */
+    margin-bottom: 1rem; /* Add space after "Last updated" */
+}
+
+/* Centered figure styling for images */
+.quick-settings-section figure {
+    margin: 2rem 0;
+    text-align: center; /* Center the figure and image */
+}
+
+/* Image size control */
+.quick-settings-section figure img {
+    max-width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional styling */
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+    .quick-settings-section h1 {
+        font-size: 2rem; /* Smaller heading on mobile */
+    }
+
+    .quick-settings-section p {
+        font-size: 1rem; /* Smaller paragraph on mobile */
+    }
+}
+</style>
+</html>

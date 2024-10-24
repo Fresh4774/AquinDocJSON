@@ -1,40 +1,107 @@
-<div className="flex min-h-screen w-full flex-col">
-	<link rel="stylesheet" href="chrome.css">
-    <main className="my-5 mt-20">
-        <div class="main-div">
-            <main class="workspaces-section">
-                <div class="workspaces-section">
-                    <h1>.</h1>
-                    <h1>Workspaces</h1>
-                    <p2>Last updated 10/4/2024</p2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workspaces Feature</title>
+    <link rel="stylesheet" href="chrome.css" />
+</head>
+<body class="flex min-h-screen w-full flex-col">
 
-                    <h2>Overview</h2>
-                    <p>
-                        A workspace is a way to organize and separate your chats, presets, prompts, files, collections, assistants, or tools. By creating separate workspaces, you can keep your tasks and projects neatly categorized and easily accessible without mixing information from different areas.
-                    </p>
+    <main class="my-5 mt-20">
+        <section class="workspaces-section">
+            <p class="last-updated">Last updated: October 4, 2024</p>
+            <h1>Workspaces</h1>
 
-                    <!-- Placeholder for Image -->
-                    <figure>
-                        <img src="https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/refs/heads/main/assets/Workspace.png" alt="Workspaces Overview" />
-                        <figcaption>An overview of how workspaces are organized in the app.</figcaption>
-                    </figure>
+            <h2>Overview</h2>
+            <p>
+                A workspace is a way to organize and separate your chats, presets, prompts, files, collections, assistants, or tools. By creating separate workspaces, you can keep your tasks and projects neatly categorized and easily accessible without mixing information from different areas.
+            </p>
 
-                    <h2>Creating and Switching Workspaces</h2>
-                    <p>
-                        To create a new workspace, click on the workspace name next to your profile icon in the sidebar and select "New Workspace." You can switch between different workspaces by clicking on their names in the workspace list.
-                    </p>
+            <!-- Placeholder for Image -->
+            <figure>
+                <img src="https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/refs/heads/main/assets/Workspace.png" alt="Workspaces Overview" class="workspace-image"/>
+                <figcaption>An overview of how workspaces are organized in the app.</figcaption>
+            </figure>
 
-                    <h2>Customizing Workspace Settings</h2>
-                    <p>
-                        Each workspace can be customized to suit your specific needs. You can change the workspace name, update the workspace image, and modify how the AI interacts with you within that workspace by adjusting its response settings.
-                    </p>
+            <h2>Creating and Switching Workspaces</h2>
+            <p>
+                To create a new workspace, click on the workspace name next to your profile icon in the sidebar and select "New Workspace." You can switch between different workspaces by clicking on their names in the workspace list.
+            </p>
 
-                    <h2>Summary</h2>
-                    <p>
-                        Workspaces help you stay organized by allowing you to separate different tasks and projects, ensuring that your workflow remains streamlined and efficient.
-                    </p>
-                </div>
-            </main>
-        </div>
-	</main>
-</div>
+            <h2>Customizing Workspace Settings</h2>
+            <p>
+                Each workspace can be customized to suit your specific needs. You can change the workspace name, update the workspace image, and modify how the AI interacts with you within that workspace by adjusting its response settings.
+            </p>
+
+            <h2>Summary</h2>
+            <p>
+                Workspaces help you stay organized by allowing you to separate different tasks and projects, ensuring that your workflow remains streamlined and efficient.
+            </p>
+        </section>
+    </main>
+
+</body>
+
+<style>
+body {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+}
+
+.workspaces-section {
+    width: 100%;
+    max-width: 800px; /* Limit width for readability */
+    margin: 0 auto; /* Center the section */
+    padding: 2rem; /* Space inside the section */
+}
+
+.workspaces-section h1 {
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+    font-weight: 600;
+    text-align: center; /* Center-align main heading */
+}
+
+.workspaces-section h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    font-weight: 500;
+}
+
+.workspaces-section p {
+    font-size: 1.1rem;
+    line-height: 1.75;
+    margin: 1rem 0;
+}
+
+/* Last updated styling */
+.last-updated {
+    font-size: 0.9rem;
+    color: #777; /* Gray color for updated text */
+    text-align: center; /* Center-align updated text */
+    margin-bottom: 1rem; /* Add space after "Last updated" */
+}
+
+/* Image styling */
+.workspace-image {
+    width: 100%; /* Full width for responsive design */
+    height: auto; /* Maintain aspect ratio */
+    margin: 1rem 0; /* Space around the image */
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+    .workspaces-section h1 {
+        font-size: 2rem; /* Smaller heading on mobile */
+    }
+
+    .workspaces-section p {
+        font-size: 1rem; /* Smaller paragraph on mobile */
+    }
+}
+</style>
+</html>

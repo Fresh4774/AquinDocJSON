@@ -1,34 +1,104 @@
-<div className="flex min-h-screen w-full flex-col">
-	<link rel="stylesheet" href="chrome.css">
-    <main className="my-5 mt-20">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commands Overview</title>
+    <link rel="stylesheet" href="chrome.css" />
+</head>
+<body class="flex min-h-screen w-full flex-col">
+
+    <main class="my-5 mt-20">
         <div class="main-div">
-            <main class="command-section">
-                <div class="command-section">
-                    <h1>Commands</h1>
-                    <p2>Last updated 10/5/2024</p2>
+            <section class="command-section">
+                <h1>Commands</h1>
+                <p class="last-updated">Last updated 10/5/2024</p>
 
-                    <h2>Overview</h2>
-                    <p>
-                        The commands feature allows you to quickly interact with the platform using shortcuts like "/", "@", "#", and "!". These commands help you navigate through prompts, assistants, collections, and tools.
-                    </p>
+                <h2>Overview</h2>
+                <p>
+                    The commands feature allows you to quickly interact with the platform using shortcuts like "/", "@", "#", and "!". These commands help you navigate through prompts, assistants, collections, and tools.
+                </p>
 
-                    <!-- Placeholder for Image -->
-                    <figure>
-                        <img src="https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/refs/heads/main/assets/Command.png" alt="Commands Overview" />
-                        <figcaption>Illustration of how commands work in the platform.</figcaption>
-                    </figure>
+                <!-- Placeholder for Image -->
+                <figure>
+                    <img src="https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/refs/heads/main/assets/Command.png" alt="Commands Overview" />
+                    <figcaption>Illustration of how commands work in the platform.</figcaption>
+                </figure>
 
-                    <h2>Command Usage</h2>
-                    <p>
-                        Use "/" for prompts, "@" for assistants, "#" for collections, and "!" for tools.
-                    </p>
+                <h2>Command Usage</h2>
+                <p>
+                    Use "/" for prompts, "@" for assistants, "#" for collections, and "!" for tools.
+                </p>
 
-                    <h2>Summary</h2>
-                    <p>
-                        Commands make it easier to interact with the platform, allowing quick access to key features through simple shortcuts.
-                    </p>
-                </div>
-            </main>
+                <h2>Summary</h2>
+                <p>
+                    Commands make it easier to interact with the platform, allowing quick access to key features through simple shortcuts.
+                </p>
+            </section>
         </div>
-	</main>
-</div>
+    </main>
+
+</body>
+
+<style>
+body {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+}
+
+.main-div {
+    width: 100%;
+    max-width: 800px; /* Limit width for readability */
+    margin: 0 auto; /* Center main div */
+}
+
+.command-section {
+    padding: 2rem; /* Space inside the command section */
+}
+
+.command-section h1 {
+    font-size: 3rem;
+    margin: 1rem 0;
+    font-weight: 600;
+    text-align: center; /* Center-align heading */
+}
+
+.command-section p {
+    font-size: 1.1rem;
+    line-height: 1.75;
+    margin: 1rem 0; /* Margin for paragraphs */
+}
+
+/* Last updated styling */
+.last-updated {
+    font-size: 0.9rem;
+    text-align: center; /* Center-align updated text */
+}
+
+/* Centered figure styling for images */
+.command-section figure {
+    margin: 2rem 0; /* Space around figures */
+}
+
+/* Image size control */
+.command-section figure img {
+    max-width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional styling */
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+    .command-section h1 {
+        font-size: 2.5rem; /* Smaller heading on mobile */
+    }
+
+    .command-section p {
+        font-size: 1rem; /* Smaller paragraph on mobile */
+    }
+}
+</style>
+</html>

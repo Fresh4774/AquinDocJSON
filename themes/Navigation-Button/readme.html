@@ -1,39 +1,117 @@
-<div className="flex min-h-screen w-full flex-col">
-	<link rel="stylesheet" href="chrome.css">
-    <main className="my-5 mt-20">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Button</title>
+    <link rel="stylesheet" href="chrome.css" />
+</head>
+<body class="flex min-h-screen w-full flex-col">
+
+    <main class="my-5 mt-20">
         <div class="main-div">
-            <main class="Navbutton">
-                <div class="NavButton">
-                    <h1>Navigation Button</h1>
-                    <p2>Last updated: October 4, 2024</p2>
+            <section class="NavButton">
+                <!-- Main Heading -->
+                <h1>Navigation Button</h1>
+                <p class="last-updated">Last updated: October 4, 2024</p>
 
-                    <h2>Overview</h2>
-                    <p>
-                        The navigation button allows you to quickly access different features such as chats, presets, prompts, files, collections, assistants, or tools. By clicking on the navigation button, you can easily manage your workspace and organize your tasks without leaving the main screen.
-                    </p>
+                <h2>Overview</h2>
+                <p>
+                    The navigation button allows you to quickly access different features such as chats, presets, prompts, files, collections, assistants, or tools. By clicking on the navigation button, you can easily manage your workspace and organize your tasks without leaving the main screen.
+                </p>
 
-                    <!-- Placeholder for Image -->
-                    <figure>
-                        <img src="https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/refs/heads/main/assets/NavigationButton.jpg" alt="Navigation Button Overview" />
-                        <figcaption>Image showing how to interact with the navigation button.</figcaption>
-                    </figure>
+                <!-- Placeholder for Image -->
+                <figure>
+                    <img src="https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/refs/heads/main/assets/NavigationButton.jpg" alt="Navigation Button Overview" />
+                    <figcaption>Image showing how to interact with the navigation button.</figcaption>
+                </figure>
 
-                    <h2>How to Use the Draggable Button</h2>
-                    <p>
-                        The button is draggable, allowing you to move it around the screen to your preferred position. Click to open the button, drag it by holding the top section, and click again to close it. This flexibility allows you to maintain an organized workspace while accessing all necessary functions.
-                    </p>
+                <h2>How to Use the Draggable Button</h2>
+                <p>
+                    The button is draggable, allowing you to move it around the screen to your preferred position. Click to open the button, drag it by holding the top section, and click again to close it. This flexibility allows you to maintain an organized workspace while accessing all necessary functions.
+                </p>
 
-                    <h2>Managing Multiple Functions</h2>
-                    <p>
-                        Using the navigation button, you can manage multiple functions simultaneously. Whether you're switching between prompts, presets, or files, this feature ensures seamless multitasking.
-                    </p>
+                <h2>Managing Multiple Functions</h2>
+                <p>
+                    Using the navigation button, you can manage multiple functions simultaneously. Whether you're switching between prompts, presets, or files, this feature ensures seamless multitasking.
+                </p>
 
-                    <h2>Summary</h2>
-                    <p>
-                        The navigation button is a user-friendly tool designed to streamline your workflow by providing easy access to key features, all within a single button.
-                    </p>
-                </div>
-            </main>
+                <h2>Summary</h2>
+                <p>
+                    The navigation button is a user-friendly tool designed to streamline your workflow by providing easy access to key features, all within a single button.
+                </p>
+            </section>
         </div>
-	</main>
-</div>
+    </main>
+
+</body>
+
+<style>
+body {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+}
+
+.main-div {
+    width: 100%;
+    max-width: 800px; /* Limit width for readability */
+    margin: 0 auto; /* Center main div */
+}
+
+.NavButton {
+    padding: 2rem; /* Space inside the section */
+}
+
+.NavButton h1 {
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+    font-weight: 600;
+    text-align: center; /* Center-align main heading */
+}
+
+.NavButton h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    font-weight: 500;
+}
+
+.NavButton p {
+    font-size: 1.1rem;
+    line-height: 1.75;
+    margin: 1rem 0;
+}
+
+/* Last updated styling */
+.last-updated {
+    font-size: 0.9rem;
+    text-align: center; /* Center-align updated text */
+}
+
+/* Centered figure styling for images */
+.NavButton figure {
+    margin: 2rem 0;
+    text-align: center; /* Center the figure and image */
+}
+
+/* Image size control */
+.NavButton figure img {
+    max-width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional styling */
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+    .NavButton h1 {
+        font-size: 2rem; /* Smaller heading on mobile */
+    }
+
+    .NavButton p {
+        font-size: 1rem; /* Smaller paragraph on mobile */
+    }
+}
+</style>
+</html>

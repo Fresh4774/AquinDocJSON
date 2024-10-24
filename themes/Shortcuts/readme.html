@@ -1,40 +1,121 @@
-<div className="flex min-h-screen w-full flex-col">
-	<link rel="stylesheet" href="chrome.css">
-    <main className="my-5 mt-20">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shortcuts Tutorial</title>
+    <link rel="stylesheet" href="chrome.css" />
+</head>
+<body class="flex min-h-screen w-full flex-col">
+
+    <main class="my-5 mt-20">
         <div class="main-div">
-            <main class="shortcut-section">
-                <div class="shortcut-section">
-                    <h1>Shortcuts</h1>
-                    <p2>Last updated 10/6/2024</p2>
+            <section class="shortcut-section">
 
-                    <h2>Overview</h2>
-                    <p>
-                        Shortcuts allow you to perform common tasks quickly and efficiently. The platform offers several predefined keyboard shortcuts to help you navigate, manage files, open settings, and toggle various features with ease.
-                    </p>
+                <!-- Last updated above the main heading -->
+                <p class="last-updated">Last updated: October 6, 2024</p>
+                
+                <!-- Main Heading -->
+                <h1>Shortcuts</h1>
 
-                    <h2>Available Shortcuts</h2>
-                    <ul>
-                        <p><strong>Show Help:</strong> CTRL + /</p>
-                        <p><strong>Show Workspaces:</strong> CTRL + ;</p>
-                        <p><strong>New Chat:</strong> CTRL + O</p>
-                        <p><strong>Focus Chat:</strong> CTRL + L</p>
-                        <p><strong>Toggle Files:</strong> CTRL + F</li>
-                        <p><strong>Toggle Retrieval:</strong> CTRL + E</p>
-                        <p><strong>Open Settings:</strong> CTRL + S</p>
-                        <p><strong>Toggle Sidebar:</strong> CTRL + B</p>
-                    </ul>
+                <h2>Overview</h2>
+                <p>
+                    Shortcuts allow you to perform common tasks quickly and efficiently. The platform offers several predefined keyboard shortcuts to help you navigate, manage files, open settings, and toggle various features with ease.
+                </p>
 
-                    <h2>Customization</h2>
-                    <p>
-                        Depending on your workflow, you can customize shortcuts to better match your preferences and increase efficiency.
-                    </p>
+                <h2>Available Shortcuts</h2>
+                <ul>
+                    <p><strong>Show Help:</strong> CTRL + /</p>
+                    <p><strong>Show Workspaces:</strong> CTRL + ;</p>
+                    <p><strong>New Chat:</strong> CTRL + O</p>
+                    <p><strong>Focus Chat:</strong> CTRL + L</p>
+                    <p><strong>Toggle Files:</strong> CTRL + F</p>
+                    <p><strong>Toggle Retrieval:</strong> CTRL + E</p>
+                    <p><strong>Open Settings:</strong> CTRL + S</p>
+                    <p><strong>Toggle Sidebar:</strong> CTRL + B</p>
+                </ul>
 
-                    <h2>Summary</h2>
-                    <p>
-                        Shortcuts offer a streamlined way to navigate the platform, manage tasks, and interact with key features quickly and efficiently.
-                    </p>
-                </div>
-            </main>
+                <h2>Customization</h2>
+                <p>
+                    Depending on your workflow, you can customize shortcuts to better match your preferences and increase efficiency.
+                </p>
+
+                <h2>Summary</h2>
+                <p>
+                    Shortcuts offer a streamlined way to navigate the platform, manage tasks, and interact with key features quickly and efficiently.
+                </p>
+            </section>
         </div>
-	</main>
-</div>
+    </main>
+
+</body>
+
+<style>
+body {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+}
+
+.main-div {
+    width: 100%;
+    max-width: 800px; /* Limit width for readability */
+    margin: 0 auto; /* Center main div */
+}
+
+.shortcut-section {
+    padding: 2rem; /* Space inside the section */
+}
+
+.shortcut-section h1 {
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+    font-weight: 600;
+    text-align: center; /* Center-align main heading */
+}
+
+.shortcut-section h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    font-weight: 500;
+}
+
+.shortcut-section p {
+    font-size: 1.1rem;
+    line-height: 1.75;
+    margin: 1rem 0;
+}
+
+/* Last updated styling */
+.last-updated {
+    font-size: 0.9rem;
+    text-align: center; /* Center-align updated text */
+    margin-bottom: 1rem; /* Add space after "Last updated" */
+}
+
+/* List styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+    line-height: 1.6;
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+    .shortcut-section h1 {
+        font-size: 2rem; /* Smaller heading on mobile */
+    }
+
+    .shortcut-section p {
+        font-size: 1rem; /* Smaller paragraph on mobile */
+    }
+}
+</style>
+</html>

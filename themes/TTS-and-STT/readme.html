@@ -1,6 +1,103 @@
-<div className="flex min-h-screen w-full flex-col">
-	<link rel="stylesheet" href="chrome.css">
-    <main className="my-5 mt-20">
-TTS and STT
-	</main>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TTS and STT Features</title>
+    <link rel="stylesheet" href="chrome.css" />
+</head>
+<body class="flex min-h-screen w-full flex-col">
+
+    <main class="my-5 mt-20">
+        <section class="tts-stt-section">
+			
+            <p class="last-updated">Last updated: October 6, 2024</p>
+            <h1>TTS and STT</h1>
+
+            <h2>Overview</h2>
+            <p>
+                Text-to-Speech (TTS) and Speech-to-Text (STT) are powerful features that enhance user interaction by allowing seamless communication between users and the platform. TTS converts written text into spoken words, while STT transcribes spoken language into written text.
+            </p>
+
+            <h2>Text-to-Speech (TTS)</h2>
+            <p>
+                The TTS functionality enables the application to read aloud text content. This is particularly beneficial for users who prefer auditory learning or have visual impairments. TTS can enhance the user experience by providing an engaging way to consume content.
+            </p>
+
+            <h2>Speech-to-Text (STT)</h2>
+            <p>
+                STT allows users to input text through spoken words. This feature is essential for hands-free operation and can significantly improve efficiency for users who may find typing cumbersome. STT can be integrated into various applications, enabling users to compose messages, commands, or notes simply by speaking.
+            </p>
+
+            <h2>Benefits</h2>
+            <ul>
+                <li>Enhances accessibility for all users, including those with disabilities.</li>
+                <li>Improves user engagement by providing multiple ways to interact with the platform.</li>
+                <li>Facilitates faster communication and input methods, increasing overall productivity.</li>
+                <li>Offers a more natural and intuitive user experience.</li>
+            </ul>
+
+            <h2>Conclusion</h2>
+            <p>
+                The integration of TTS and STT features represents a significant advancement in user interaction capabilities. These functionalities cater to diverse user needs, fostering inclusivity and enhancing overall productivity within the platform.
+            </p>
+        </section>
+    </main>
+
+</body>
+
+<style>
+body {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+}
+
+.tts-stt-section {
+    width: 100%;
+    max-width: 800px; /* Limit width for readability */
+    margin: 0 auto; /* Center the section */
+    padding: 2rem; /* Space inside the section */
+}
+
+.tts-stt-section h1 {
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+    font-weight: 600;
+    text-align: center; /* Center-align main heading */
+}
+
+.tts-stt-section h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    font-weight: 500;
+}
+
+.tts-stt-section p {
+    font-size: 1.1rem;
+    line-height: 1.75;
+    margin: 1rem 0;
+}
+
+/* Last updated styling */
+.last-updated {
+    font-size: 0.9rem;
+    color: #777; /* Gray color for updated text */
+    text-align: center; /* Center-align updated text */
+    margin-bottom: 1rem; /* Add space after "Last updated" */
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+    .tts-stt-section h1 {
+        font-size: 2rem; /* Smaller heading on mobile */
+    }
+
+    .tts-stt-section p {
+        font-size: 1rem; /* Smaller paragraph on mobile */
+    }
+}
+</style>
+</html>

@@ -1,40 +1,116 @@
-<div className="flex min-h-screen w-full flex-col">
-	<link rel="stylesheet" href="chrome.css">
-    <main className="my-5 mt-20">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-Prompt Tutorial</title>
+    <link rel="stylesheet" href="chrome.css" />
+</head>
+<body class="flex min-h-screen w-full flex-col">
+
+    <main class="my-5 mt-20">
         <div class="main-div">
-            <main class="PrePromptTutorial">
-                <div class="PrePromptTutorial">
-                    <p>o</p>
-                    <h1>How to Create and Use a Pre-Prompt</h1>
-                    <p2>Last updated 10/5/2024</p2>
+            <section class="PrePromptTutorial">
+                <p class="last-updated">Last updated: October 5, 2024</p>
+                <h1>How to Create and Use a Pre-Prompt</h1>
 
-                    <h2>Overview</h2>
-                    <p>
-                        The pre-prompt feature allows you to customize specific configurations that guide your AI assistant's behavior. Pre-prompts ensure that the AI responds according to a predefined context, saving time and maintaining consistency across tasks and interactions.
-                    </p>
+                <h2>Overview</h2>
+                <p>
+                    The pre-prompt feature allows you to customize specific configurations that guide your AI assistant's behavior. Pre-prompts ensure that the AI responds according to a predefined context, saving time and maintaining consistency across tasks and interactions.
+                </p>
 
-                    <!-- Placeholder for Image -->
-                    <figure>
-                        <img src="https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/refs/heads/main/assets/PrePrompt.png" alt="Pre-Prompt Overview" />
-                        <figcaption>Image showing an example of a pre-prompt configuration.</figcaption>
-                    </figure>
+                <!-- Placeholder for Image -->
+                <figure>
+                    <img src="https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/refs/heads/main/assets/PrePrompt.png" alt="Pre-Prompt Overview" />
+                    <figcaption>Image showing an example of a pre-prompt configuration.</figcaption>
+                </figure>
 
-                    <h2>Creating a New Pre-Prompt</h2>
-                    <p>
-                        To create a new pre-prompt, click the "Create Pre-Prompt" button. You can define a prompt that will be used as a basis for all subsequent conversations or interactions. This is especially useful for tasks requiring the AI to operate within specific guidelines.
-                    </p>
+                <h2>Creating a New Pre-Prompt</h2>
+                <p>
+                    To create a new pre-prompt, click the "Create Pre-Prompt" button. You can define a prompt that will be used as a basis for all subsequent conversations or interactions. This is especially useful for tasks requiring the AI to operate within specific guidelines.
+                </p>
 
-                    <h2>Customizing the Pre-Prompt</h2>
-                    <p>
-                        Once created, you can customize your pre-prompt further by modifying advanced settings such as temperature or context length. These options allow for greater flexibility, making sure the AI fits your specific needs.
-                    </p>
+                <h2>Customizing the Pre-Prompt</h2>
+                <p>
+                    Once created, you can customize your pre-prompt further by modifying advanced settings such as temperature or context length. These options allow for greater flexibility, making sure the AI fits your specific needs.
+                </p>
 
-                    <h2>Summary</h2>
-                    <p>
-                        The pre-prompt feature is a powerful tool for optimizing AI responses by providing clear guidance, ensuring consistent and efficient interactions across various tasks.
-                    </p>
-                </div>
-            </main>
+                <h2>Summary</h2>
+                <p>
+                    The pre-prompt feature is a powerful tool for optimizing AI responses by providing clear guidance, ensuring consistent and efficient interactions across various tasks.
+                </p>
+            </section>
         </div>
-	</main>
-</div>
+    </main>
+
+</body>
+
+<style>
+body {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+}
+
+.main-div {
+    width: 100%;
+    max-width: 800px; /* Limit width for readability */
+    margin: 0 auto; /* Center main div */
+}
+
+.PrePromptTutorial {
+    padding: 2rem; /* Space inside the section */
+}
+
+.PrePromptTutorial h1 {
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+    font-weight: 600;
+    text-align: center; /* Center-align main heading */
+}
+
+.PrePromptTutorial h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    font-weight: 500;
+}
+
+.PrePromptTutorial p {
+    font-size: 1.1rem;
+    line-height: 1.75;
+    margin: 1rem 0;
+}
+
+/* Last updated styling */
+.last-updated {
+    font-size: 0.9rem;
+    text-align: center; /* Center-align updated text */
+}
+
+/* Centered figure styling for images */
+.PrePromptTutorial figure {
+    margin: 2rem 0;
+    text-align: center; /* Center the figure and image */
+}
+
+/* Image size control */
+.PrePromptTutorial figure img {
+    max-width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional styling */
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+    .PrePromptTutorial h1 {
+        font-size: 2rem; /* Smaller heading on mobile */
+    }
+
+    .PrePromptTutorial p {
+        font-size: 1rem; /* Smaller paragraph on mobile */
+    }
+}
+</style>
+</html>

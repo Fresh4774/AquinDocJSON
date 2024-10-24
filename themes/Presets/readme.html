@@ -1,39 +1,121 @@
-<div className="flex min-h-screen w-full flex-col">
-	<link rel="stylesheet" href="chrome.css">
-    <main className="my-5 mt-20">
-		<div class="main-div">
-			<main class="PresetTutorial">
-				<div class="PresetTutorial">
-					<h1>How to Create and Use a Preset</h1>
-					<p2>Last updated 10/5/2024</p2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preset Tutorial</title>
+    <link rel="stylesheet" href="chrome.css" />
+</head>
+<body class="flex min-h-screen w-full flex-col">
 
-					<h2>Overview</h2>
-					<p>
-						The preset feature allows you to define configurations that streamline how the AI interacts with you. Presets can save time by pre-configuring settings such as the model, prompt, and advanced settings like temperature and context length.
-					</p>
+    <main class="my-5 mt-20">
+        <div class="main-div">
+            <section class="PresetTutorial">
+                
+                <!-- Last updated above the main heading -->
+                <p class="last-updated">Last updated: October 5, 2024</p>
+                
+                <!-- Main Heading -->
+                <h1>How to Create and Use a Preset</h1>
 
-					<!-- Placeholder for Image -->
-					<figure>
-						<img src="https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/refs/heads/main/assets/Preset.png" alt="Preset Overview" />
-						<figcaption>An example of how to create a preset.</figcaption>
-					</figure>
+                <h2>Overview</h2>
+                <p>
+                    The preset feature allows you to define configurations that streamline how the AI interacts with you. Presets can save time by pre-configuring settings such as the model, prompt, and advanced settings like temperature and context length.
+                </p>
 
-					<h2>Creating a New Preset</h2>
-					<p>
-						To create a preset, click the "Create Preset" button and fill out the necessary fields. You can give the preset a name, select the AI model, and write a prompt that guides the AI's behavior.
-					</p>
+                <!-- Placeholder for Image -->
+                <figure>
+                    <img src="https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/refs/heads/main/assets/Preset.png" alt="Preset Overview" />
+                    <figcaption>An example of how to create a preset.</figcaption>
+                </figure>
 
-					<h2>Advanced Settings</h2>
-					<p>
-						Adjust advanced settings to suit your needs. You can control the temperature, which defines the creativity of the AI, and the context length, which determines how much of the conversation history the AI retains.
-					</p>
+                <h2>Creating a New Preset</h2>
+                <p>
+                    To create a preset, click the "Create Preset" button and fill out the necessary fields. You can give the preset a name, select the AI model, and write a prompt that guides the AI's behavior.
+                </p>
 
-					<h2>Summary</h2>
-					<p>
-						Presets allow for the creation of custom AI configurations, ensuring that tasks and interactions are carried out efficiently and consistently.
-					</p>
-				</div>
-			</main>
-		</div>
-	</main>
-</div>
+                <h2>Advanced Settings</h2>
+                <p>
+                    Adjust advanced settings to suit your needs. You can control the temperature, which defines the creativity of the AI, and the context length, which determines how much of the conversation history the AI retains.
+                </p>
+
+                <h2>Summary</h2>
+                <p>
+                    Presets allow for the creation of custom AI configurations, ensuring that tasks and interactions are carried out efficiently and consistently.
+                </p>
+            </section>
+        </div>
+    </main>
+
+</body>
+
+<style>
+body {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+}
+
+.main-div {
+    width: 100%;
+    max-width: 800px; /* Limit width for readability */
+    margin: 0 auto; /* Center main div */
+}
+
+.PresetTutorial {
+    padding: 2rem; /* Space inside the section */
+}
+
+.PresetTutorial h1 {
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+    font-weight: 600;
+    text-align: center; /* Center-align main heading */
+}
+
+.PresetTutorial h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    font-weight: 500;
+}
+
+.PresetTutorial p {
+    font-size: 1.1rem;
+    line-height: 1.75;
+    margin: 1rem 0;
+}
+
+/* Last updated styling */
+.last-updated {
+    font-size: 0.9rem;
+    text-align: center; /* Center-align updated text */
+    margin-bottom: 1rem; /* Add space after "Last updated" */
+}
+
+/* Centered figure styling for images */
+.PresetTutorial figure {
+    margin: 2rem 0;
+    text-align: center; /* Center the figure and image */
+}
+
+/* Image size control */
+.PresetTutorial figure img {
+    max-width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional styling */
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+    .PresetTutorial h1 {
+        font-size: 2rem; /* Smaller heading on mobile */
+    }
+
+    .PresetTutorial p {
+        font-size: 1rem; /* Smaller paragraph on mobile */
+    }
+}
+</style>
+</html>

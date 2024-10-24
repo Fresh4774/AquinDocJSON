@@ -1,46 +1,191 @@
-<div className="flex min-h-screen w-full flex-col">
-	<link rel="stylesheet" href="chrome.css">
-    <main className="my-5 mt-20">
-        <div class="main-div">
-            <main class="AIRespond-section">
-                <div class="AIRespond-section">
-                    <h1>.</h1>
-                    <h1>.</h1>
-                    <h1>AI Responses</h1>
-                    <p2>Last updated 10/5/2024</p2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Responses</title>
+</head>
+<body class="flex min-h-screen w-full flex-col justify-center items-center">
 
-                    <h2>Overview</h2>
-                    <p>
-                        Navigating AI responses on this platform is intuitive and user-friendly. When interacting with the chatbot, responses appear in the main chat window, allowing you to review previous interactions by scrolling through the conversation history.
-                    </p>
+    <main class="my-5 mt-20 w-full flex justify-center">
+        <div class="main-div text-center">
+            <section class="AIRespond-section">
+
+                <!-- New div to center align and justify content -->
+                <div class="header-section flex flex-col items-center justify-center">
+                    <p class="text-center"><i>Last updated 10/5/2024</i></p>
+
+                    <h1 class="text-center">AI Responses</h1>
                     
-                    <!-- Placeholder for Image -->
+                    <p class="description text-center">
+                        Discover how AI-driven platforms present responses to users in real-time.<br>
+                        Learn to navigate multiple conversations and use commands for efficiency.
+                    </p>
+
                     <figure>
-                        <img src="https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/refs/heads/main/assets/AiResponse.png" alt="Overview of AI Responses" />
-                        <figcaption>An overview showing how AI responses are displayed.</figcaption>
+                        <img src="https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/refs/heads/main/assets/AiResponse.png" alt="Overview of AI Responses">
                     </figure>
-
-                    <h2>Real-time Responses</h2>
-                    <p>
-                        The AI’s responses appear in real-time, and you can continue the conversation by typing into the input box at the bottom of the chat.
-                    </p>
-
-                    <h2>Managing Multiple Conversations</h2>
-                    <p>
-                        You can manage multiple conversations by opening new chat sessions. Each session operates independently, helping you organize tasks or projects without mixing them up.
-                    </p>
-
-                    <h2>Using Commands for Navigation</h2>
-                    <p>
-                        To navigate responses quickly, you can use commands like "/help" or "/options" to get a list of features or actions available.
-                    </p>
-
-                    <h2>Summary</h2>
-                    <p>
-                        In summary, navigating AI responses on this platform is designed to be smooth and flexible, enabling efficient conversation management.
-                    </p>
                 </div>
-            </main>
+
+                <!-- Blog Content -->
+                <h2>Overview</h2>
+                <p>
+                    Navigating through AI-driven platforms can sometimes seem daunting, but with a well-structured interface, the experience becomes seamless and intuitive. On this platform, AI responses are conveniently displayed in the main chat window. Whether you're starting a new conversation or revisiting previous interactions, you can easily scroll through the conversation history to review all responses.
+                </p>
+
+                <h2>AI Code Generation</h2>
+                <p>
+                    AI code generation involves the use of AI to create and suggest code snippets based on user inputs. This capability includes:
+                </p>
+                <ul>
+                    <li>Generating code in various programming languages (e.g., Python, JavaScript, Java, C#)</li>
+                    <li>Creating functions, classes, or entire scripts based on user specifications</li>
+                    <li>Debugging and providing solutions for coding errors</li>
+                    <li>Offering code optimization suggestions</li>
+                    <li>Generating documentation and comments for better code understanding</li>
+                </ul>
+
+                <h2>AI Text Generation</h2>
+                <p>
+                    AI text generation encompasses a wide range of capabilities, allowing users to create various types of text content. This includes:
+                </p>
+                <ul>
+                    <li>Generating articles, blogs, or reports on specified topics</li>
+                    <li>Writing creative content such as stories, poems, or dialogues</li>
+                    <li>Creating marketing copy, advertisements, and product descriptions</li>
+                    <li>Drafting emails, letters, or professional communications</li>
+                    <li>Summarizing long texts into concise summaries</li>
+                    <li>Translating text between different languages</li>
+                    <li>Providing conversational responses for chatbots or virtual assistants</li>
+                    <li>Generating social media posts and captions</li>
+                </ul>
+
+                <h2>Summary</h2>
+                <p>
+                    In conclusion, the platform's design for navigating AI responses is both user-friendly and flexible. With real-time interactions, the ability to manage multiple conversations, and quick navigation through commands, users can enjoy an efficient and organized experience. Whether you're tackling one task or many, the intuitive interface makes conversation management a breeze.
+                </p>
+            </section>
         </div>
-	</main>
-</div>
+    </main>
+
+</body>
+
+<style>
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.main-div {
+  width: 100%;
+  max-width: 800px; /* Limit width for readability */
+}
+
+.header-section {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center align elements */
+  justify-content: center; /* Center justify elements */
+  margin-bottom: 2rem; /* Space below the header section */
+}
+
+.main-div h1 {
+  font-size: 3rem;
+  margin-top: 1rem; 
+  margin-bottom: 1rem;
+  font-weight: 600;
+  text-align: center; /* Center-align heading */
+}
+
+/* Description styling */
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.main-div h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  text-align: left; 
+}
+
+.main-div h3 {
+  font-size: 1.8rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.main-div p {
+  font-size: 1.1rem;
+  line-height: 1.75;
+  margin-top: 1rem; 
+  margin-bottom: 2rem;
+}
+
+.main-div ul, .main-div ol {
+  margin-left: 2rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.main-div li {
+  margin-bottom: 1rem;
+}
+
+.main-div ul {
+  list-style-type: disc;
+}
+
+.main-div ol {
+  list-style-type: decimal;
+}
+
+.main-div a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Image size and border adjustment */
+.main-div figure img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    margin: 0 auto; /* Center image */
+    width: 120%; /* Increase image size */
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+  .nav-button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  /* Adjust image size on smaller screens */
+  .main-div figure img {
+      width: 100%;
+  }
+}
+
+</style>
+</html>

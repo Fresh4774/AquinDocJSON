@@ -1,40 +1,121 @@
-<div className="flex min-h-screen w-full flex-col">
-	<link rel="stylesheet" href="chrome.css">
-    <main className="my-5 mt-20">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Tutorial</title>
+    <link rel="stylesheet" href="chrome.css" />
+</head>
+<body class="flex min-h-screen w-full flex-col">
+
+    <main class="my-5 mt-20">
         <div class="main-div">
-            <main class="ProfileTutorial">
-                <div class="ProfileTutorial">
-                    <h1>.</h1>
-                    <h1>How to Use the Profile Feature</h1>
-                    <p2>Last updated 10/5/2024</p2>
+            <section class="ProfileTutorial">
 
-                    <h2>Overview</h2>
-                    <p>
-                        The profile feature allows you to manage essential settings such as your display name, profile image, and how the AI interacts with you.
-                    </p>
+                <!-- Last updated above the main heading -->
+                <p class="last-updated">Last updated: October 5, 2024</p>
+                
+                <!-- Main Heading -->
+                <h1>How to Use the Profile Feature</h1>
 
-                    <!-- Placeholder for Image -->
-                    <figure>
-                        <img src="https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/refs/heads/main/assets/Profile.png" alt="Profile Feature Overview" />
-                        <figcaption>Illustration of how to use profile settings for personalization.</figcaption>
-                    </figure>
+                <h2>Overview</h2>
+                <p>
+                    The profile feature allows you to manage essential settings such as your display name, profile image, and how the AI interacts with you.
+                </p>
 
-                    <h2>Profile Settings</h2>
-                    <p>
-                        In the profile settings, you can update your display name and upload a profile image. You can also specify what personal details you'd like the AI to use in order to provide better, more tailored responses. For example, providing preferences or context about your tasks helps the AI understand how to assist you better.
-                    </p>
+                <!-- Placeholder for Image -->
+                <figure>
+                    <img src="https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/refs/heads/main/assets/Profile.png" alt="Profile Feature Overview" />
+                    <figcaption>Illustration of how to use profile settings for personalization.</figcaption>
+                </figure>
 
-                    <h2>Resetting Your Account</h2>
-                    <p>
-                        If at any point you want to reset your account or delete your profile, you can log out and follow the instructions to reset your password or delete your account entirely. Please note that deleting your account is permanent, and this action cannot be undone.
-                    </p>
+                <h2>Profile Settings</h2>
+                <p>
+                    In the profile settings, you can update your display name and upload a profile image. You can also specify what personal details you'd like the AI to use in order to provide better, more tailored responses. For example, providing preferences or context about your tasks helps the AI understand how to assist you better.
+                </p>
 
-                    <h2>Summary</h2>
-                    <p>
-                        The profile feature allows you to customize the AI experience by tailoring personal settings such as your name, image, and preferences, ensuring a personalized interaction with the AI.
-                    </p>
-                </div>
-            </main>
+                <h2>Resetting Your Account</h2>
+                <p>
+                    If at any point you want to reset your account or delete your profile, you can log out and follow the instructions to reset your password or delete your account entirely. Please note that deleting your account is permanent, and this action cannot be undone.
+                </p>
+
+                <h2>Summary</h2>
+                <p>
+                    The profile feature allows you to customize the AI experience by tailoring personal settings such as your name, image, and preferences, ensuring a personalized interaction with the AI.
+                </p>
+            </section>
         </div>
-	</main>
-</div>
+    </main>
+
+</body>
+
+<style>
+body {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+}
+
+.main-div {
+    width: 100%;
+    max-width: 800px; /* Limit width for readability */
+    margin: 0 auto; /* Center main div */
+}
+
+.ProfileTutorial {
+    padding: 2rem; /* Space inside the section */
+}
+
+.ProfileTutorial h1 {
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+    font-weight: 600;
+    text-align: center; /* Center-align main heading */
+}
+
+.ProfileTutorial h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    font-weight: 500;
+}
+
+.ProfileTutorial p {
+    font-size: 1.1rem;
+    line-height: 1.75;
+    margin: 1rem 0;
+}
+
+/* Last updated styling */
+.last-updated {
+    font-size: 0.9rem;
+    text-align: center; /* Center-align updated text */
+    margin-bottom: 1rem; /* Add space after "Last updated" */
+}
+
+/* Centered figure styling for images */
+.ProfileTutorial figure {
+    margin: 2rem 0;
+    text-align: center; /* Center the figure and image */
+}
+
+/* Image size control */
+.ProfileTutorial figure img {
+    max-width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional styling */
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+    .ProfileTutorial h1 {
+        font-size: 2rem; /* Smaller heading on mobile */
+    }
+
+    .ProfileTutorial p {
+        font-size: 1rem; /* Smaller paragraph on mobile */
+    }
+}
+</style>
+</html>

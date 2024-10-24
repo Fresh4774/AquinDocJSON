@@ -1,68 +1,156 @@
-<div className="flex min-h-screen w-full flex-col">
-	<link rel="stylesheet" href="chrome.css">
-    <main className="my-5 mt-20">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Upload and Use Files</title>
+    <link rel="stylesheet" href="chrome.css" />
+</head>
+<body class="flex min-h-screen w-full flex-col">
+
+    <main class="my-5 mt-20">
         <div class="main-div">
-            <main class="FileTutorial">
-                <div class="FileTutorial">
-                    <h1>.</h1>
-                    <h1>.</h1>
-                    <h1>.</h1>
-                    <h1>.</h1>
-                    <h1>.</h1>
-                    <h1>How to Upload and Use Files</h1>
-                    <p2>Last updated 10/5/2024</p2>
+            <section class="FileTutorial">
+                <!-- Placeholder heading for spacing -->
+                <h1 class="spacer">.</h1>
+                <h1 class="spacer">.</h1>
+                <h1 class="spacer">.</h1>
+                <h1 class="spacer">.</h1>
+                <h1 class="spacer">.</h1>
 
-                    <h2>Overview</h2>
-                    <p>
-                        The file feature allows you to upload and manage files on the platform. You can attach files for various uses, such as sharing documents or providing additional context for AI interactions.
-                    </p>
+                <!-- Main Heading -->
+                <h1>How to Upload and Use Files</h1>
+                <p class="last-updated">Last updated 10/5/2024</p>
 
-                    <!-- Placeholder for Image -->
-                    <figure>
-                        <img src="https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/refs/heads/main/assets/FileInteraction.png" alt="File Interactions Example" />
-                        <figcaption>An illustration showing how to interact with files.</figcaption>
-                    </figure>
-                    <h2>Step-by-Step Guide</h2>
+                <h2>Overview</h2>
+                <p>
+                    The file feature allows you to upload and manage files on the platform. You can attach files for various uses, such as sharing documents or providing additional context for AI interactions.
+                </p>
 
-                    <h3>1. Uploading a File</h3>
-                    <p>
-                        To upload a file:
-                        <ul>
-                            <p>Click the Create File button to begin.</p>
-                            <p>Click the Choose File button and select the file from your device.</p>
-                        </ul>
-                    </p>
+                <!-- Placeholder for Image -->
+                <figure>
+                    <img src="https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/refs/heads/main/assets/FileInteraction.png" alt="File Interactions Example" />
+                    <figcaption>An illustration showing how to interact with files.</figcaption>
+                </figure>
 
-                    <h3>2. Naming Your File</h3>
-                    <p>
-                        After selecting your file:
-                        <ul>
-                            <p>In the Name field, enter a clear name for your file (e.g., "Project Proposal").</p>
-                        </ul>
-                    </p>
+                <h2>Step-by-Step Guide</h2>
 
-                    <h3>3. Adding a Description</h3>
-                    <p>
-                        Optionally, you can add a description for your file:
-                        <ul>
-                            <p>In the Description field, provide a brief summary of the file’s contents (e.g., "This file contains the project proposal for client XYZ").</p>
-                        </ul>
-                    </p>
+                <h3>1. Uploading a File</h3>
+                <p>To upload a file:</p>
+                <ul>
+                    <li>Click the <strong>Create File</strong> button to begin.</li>
+                    <li>Click the <strong>Choose File</strong> button and select the file from your device.</li>
+                </ul>
 
-                    <h3>4. Saving the File</h3>
-                    <p>
-                        Once you have named and described your file:
-                        <ul>
-                            <p>Click Save to upload and store the file in the platform for future use.</p>
-                        </ul>
-                    </p>
+                <h3>2. Naming Your File</h3>
+                <p>After selecting your file:</p>
+                <ul>
+                    <li>In the <strong>Name</strong> field, enter a clear name for your file (e.g., "Project Proposal").</li>
+                </ul>
 
-                    <h2>Using Uploaded Files</h2>
-                    <p>
-                        Once uploaded, your files can be used in various contexts, such as attaching them to conversations or referencing them in different tasks.
-                    </p>
-                </div>
-            </main>
+                <h3>3. Adding a Description</h3>
+                <p>Optionally, you can add a description for your file:</p>
+                <ul>
+                    <li>In the <strong>Description</strong> field, provide a brief summary of the file’s contents (e.g., "This file contains the project proposal for client XYZ").</li>
+                </ul>
+
+                <h3>4. Saving the File</h3>
+                <p>Once you have named and described your file:</p>
+                <ul>
+                    <li>Click <strong>Save</strong> to upload and store the file in the platform for future use.</li>
+                </ul>
+
+                <h2>Using Uploaded Files</h2>
+                <p>
+                    Once uploaded, your files can be used in various contexts, such as attaching them to conversations or referencing them in different tasks.
+                </p>
+            </section>
         </div>
-	</main>
-</div>
+    </main>
+
+</body>
+
+<style>
+body {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+}
+
+.main-div {
+    width: 100%;
+    max-width: 800px; /* Limit width for readability */
+    margin: 0 auto; /* Center main div */
+}
+
+.FileTutorial {
+    padding: 2rem; /* Space inside the file tutorial section */
+}
+
+.FileTutorial h1 {
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+    font-weight: 600;
+    text-align: center; /* Center-align main heading */
+}
+
+.FileTutorial h2, h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    font-weight: 500;
+}
+
+.FileTutorial p {
+    font-size: 1.1rem;
+    line-height: 1.75;
+    margin: 1rem 0;
+}
+
+/* Last updated styling */
+.last-updated {
+    font-size: 0.9rem;
+    text-align: center; /* Center-align updated text */
+}
+
+/* Spacer class to adjust heading */
+.spacer {
+    display: none;
+}
+
+/* Centered figure styling for images */
+.FileTutorial figure {
+    margin: 2rem 0;
+    text-align: center; /* Center the figure and image */
+}
+
+/* Image size control */
+.FileTutorial figure img {
+    max-width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional styling */
+}
+
+/* List styles */
+.FileTutorial ul {
+    padding-left: 1.5rem;
+    margin: 1rem 0;
+}
+
+.FileTutorial ul li {
+    margin: 0.5rem 0;
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+    .FileTutorial h1 {
+        font-size: 2rem; /* Smaller heading on mobile */
+    }
+
+    .FileTutorial p {
+        font-size: 1rem; /* Smaller paragraph on mobile */
+    }
+}
+</style>
+</html>

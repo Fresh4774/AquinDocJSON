@@ -1,42 +1,126 @@
-<div className="flex min-h-screen w-full flex-col">
-	<link rel="stylesheet" href="chrome.css">
-    <main className="my-5 mt-20">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar Tutorial</title>
+    <link rel="stylesheet" href="chrome.css" />
+</head>
+<body class="flex min-h-screen w-full flex-col">
+
+    <main class="my-5 mt-20">
         <div class="main-div">
-            <main class="sidebar-section">
-                <div class="sidebar-section">
-                    <h1>Sidebar</h1>
-                    <p2>Last updated 10/6/2024</p2>
+            <section class="sidebar-section">
 
-                    <h2>Overview</h2>
-                    <p>
-                        The sidebar is your central hub for navigating the various sections of the platform. It provides easy access to different workspaces, chats, files, collections, and assistants, all in one place.
-                    </p>
+                <!-- Last updated above the main heading -->
+                <p class="last-updated">Last updated: October 6, 2024</p>
+                
+                <!-- Main Heading -->
+                <h1>Sidebar</h1>
 
-                   <!-- Placeholder for Video -->
-                   <figure>
+                <h2>Overview</h2>
+                <p>
+                    The sidebar is your central hub for navigating the various sections of the platform. It provides easy access to different workspaces, chats, files, collections, and assistants, all in one place.
+                </p>
+
+                <!-- Placeholder for Video -->
+                <figure class="video-container">
                     <video controls>
                         <source src="https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/refs/heads/main/assets/Sidebar.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
                     </video>
                     <figcaption>Video demonstration of how to use the sidebar.</figcaption>
-                 </figure>
-                   
-                    <h2>Using the Sidebar</h2>
-                    <p>
-                        You can open and close the sidebar by clicking the toggle button. Inside the sidebar, you’ll find quick access to the most important sections, allowing you to jump between tasks seamlessly.
-                    </p>
+                </figure>
+                
+                <h2>Using the Sidebar</h2>
+                <p>
+                    You can open and close the sidebar by clicking the toggle button. Inside the sidebar, you’ll find quick access to the most important sections, allowing you to jump between tasks seamlessly.
+                </p>
 
+                <h2>Customizing the Sidebar</h2>
+                <p>
+                    The sidebar is customizable, letting you prioritize the features you use the most. You can rearrange your workspace order, pin files, or set certain assistants to appear at the top of the list.
+                </p>
 
-                    <h2>Customizing the Sidebar</h2>
-                    <p>
-                        The sidebar is customizable, letting you prioritize the features you use the most. You can rearrange your workspace order, pin files, or set certain assistants to appear at the top of the list.
-                    </p>
+                <h2>Summary</h2>
+                <p>
+                    The sidebar enhances productivity by providing a central place for all your navigation needs, helping you to organize and access various platform features quickly and effectively.
+                </p>
 
-                    <h2>Summary</h2>
-                    <p>
-                        The sidebar enhances productivity by providing a central place for all your navigation needs, helping you to organize and access various platform features quickly and effectively.
-                    </p>
-                </div>
-            </main>
+            </section>
         </div>
-	</main>
-</div>
+    </main>
+
+</body>
+
+<style>
+body {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+}
+
+.main-div {
+    width: 100%;
+    max-width: 800px; /* Limit width for readability */
+    margin: 0 auto; /* Center main div */
+}
+
+.sidebar-section {
+    padding: 2rem; /* Space inside the section */
+}
+
+.sidebar-section h1 {
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+    font-weight: 600;
+    text-align: center; /* Center-align main heading */
+}
+
+.sidebar-section h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    font-weight: 500;
+}
+
+.sidebar-section p {
+    font-size: 1.1rem;
+    line-height: 1.75;
+    margin: 1rem 0;
+}
+
+/* Last updated styling */
+.last-updated {
+    font-size: 0.9rem;
+    text-align: center; /* Center-align updated text */
+    margin-bottom: 1rem; /* Add space after "Last updated" */
+}
+
+/* Video container for responsiveness */
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0; /* Space above and below the video */
+}
+
+.video-container video {
+    width: 100%; /* Make video responsive */
+    max-width: 600px; /* Limit the maximum width of the video */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+    .sidebar-section h1 {
+        font-size: 2rem; /* Smaller heading on mobile */
+    }
+
+    .sidebar-section p {
+        font-size: 1rem; /* Smaller paragraph on mobile */
+    }
+}
+</style>
+</html>

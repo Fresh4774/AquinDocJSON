@@ -1,52 +1,127 @@
-<div className="flex min-h-screen w-full flex-col">
-	<link rel="stylesheet" href="chrome.css">
-    <main className="my-5 mt-20">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Composer Overview</title>
+    <link rel="stylesheet" href="chrome.css" />
+</head>
+<body class="flex min-h-screen w-full flex-col">
+
+    <main class="my-5 mt-20">
         <div class="main-div">
-            <main class="composer-section">
-                <div class="composer-section">
-                    <p>.</p>
-                    <h1>Composer</h1>
-                    <p2>Last updated 10/5/2024</p2>
+            <section class="composer-section">
+                <p class="spacer">.</p>  <!-- Spacer can be adjusted as needed -->
+                <h1>Composer</h1>
+                <p class="last-updated">Last updated 10/5/2024</p>
 
-                    <h2>Overview</h2>
-                    <p>
-                        The composer in the Aquin app provides several functions to enhance your interaction with the AI, including options to upload files, use a microphone, and send messages. The composer acts as your main interface for sending inputs to the AI.
-                    </p>
+                <h2>Overview</h2>
+                <p>
+                    The composer in the Aquin app provides several functions to enhance your interaction with the AI, including options to upload files, use a microphone, and send messages. The composer acts as your main interface for sending inputs to the AI.
+                </p>
 
-                    <!-- Placeholder for Image -->
-                    <figure>
-                        <img src="https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/refs/heads/main/assets/composer.png" alt="Composer Overview" />
-                        <figcaption>An illustration of the composer’s features and functions.</figcaption>
-                    </figure>
+                <!-- Placeholder for Image -->
+                <figure>
+                    <img src="https://raw.githubusercontent.com/Fresh4774/AquinDocJSON/refs/heads/main/assets/composer.png" alt="Composer Overview" />
+                    <figcaption>An illustration of the composer’s features and functions.</figcaption>
+                </figure>
 
-                    <h2>Functions in the Composer</h2>
-                    <ul>
-                        <li><strong>Upload File:</strong> Attach files to share with the AI.</li>
-                        <li><strong>Send Button:</strong> Submit your text prompt to the AI.</li>
-                        <li><strong>Microphone Button:</strong> Send voice commands or messages to the AI.</li>
-                    </ul>
+                <h2>Functions in the Composer</h2>
+                <ul>
+                    <li><strong>Upload File:</strong> Attach files to share with the AI.</li>
+                    <li><strong>Send Button:</strong> Submit your text prompt to the AI.</li>
+                    <li><strong>Microphone Button:</strong> Send voice commands or messages to the AI.</li>
+                </ul>
 
-                    <p>
-                        The composer is located at the bottom of the app and acts as a large bar with interactive buttons for these functionalities.
-                    </p>
+                <p>
+                    The composer is located at the bottom of the app and acts as a large bar with interactive buttons for these functionalities.
+                </p>
 
-                    <h2>How to Use the Composer</h2>
-                    <p>
-                        1. <strong>Sending Messages:</strong> Type your message into the composer and press the <strong>Send Button</strong> to submit it, or use the <strong>Return/Enter</strong> key on your keyboard for quick sending.
-                    </p>
-                    <p>
-                        2. <strong>Using Voice Input:</strong> To send a message via voice, press the <strong>Microphone Button</strong> and begin speaking. Once you're finished, press the button again to submit your voice message.
-                    </p>
-                    <p>
-                        3. <strong>Uploading Files:</strong> To upload a file, click the <strong>Upload (Folder) Button</strong> to browse and select a file from your computer, or drag and drop a file directly into the composer area.
-                    </p>
+                <h2>How to Use the Composer</h2>
+                <p>
+                    1. <strong>Sending Messages:</strong> Type your message into the composer and press the <strong>Send Button</strong> to submit it, or use the <strong>Return/Enter</strong> key on your keyboard for quick sending.
+                </p>
+                <p>
+                    2. <strong>Using Voice Input:</strong> To send a message via voice, press the <strong>Microphone Button</strong> and begin speaking. Once you're finished, press the button again to submit your voice message.
+                </p>
+                <p>
+                    3. <strong>Uploading Files:</strong> To upload a file, click the <strong>Upload (Folder) Button</strong> to browse and select a file from your computer, or drag and drop a file directly into the composer area.
+                </p>
 
-                    <h2>Summary</h2>
-                    <p>
-                        The composer is your primary tool for interacting with the AI, whether you're sending text messages, voice commands, or uploading files for analysis. This feature streamlines communication, making it easy to manage inputs in one place.
-                    </p>
-                </div>
-            </main>
+                <h2>Summary</h2>
+                <p>
+                    The composer is your primary tool for interacting with the AI, whether you're sending text messages, voice commands, or uploading files for analysis. This feature streamlines communication, making it easy to manage inputs in one place.
+                </p>
+            </section>
         </div>
-	</main>
-</div>
+    </main>
+
+</body>
+
+<style>
+body {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+}
+
+.main-div {
+    width: 100%;
+    max-width: 800px; /* Limit width for readability */
+    margin: 0 auto; /* Center main div */
+}
+
+.composer-section {
+    padding: 2rem; /* Space inside the composer section */
+}
+
+.composer-section h1 {
+    font-size: 3rem;
+    margin: 1rem 0;
+    font-weight: 600;
+    text-align: center; /* Center-align heading */
+}
+
+.composer-section p {
+    font-size: 1.1rem;
+    line-height: 1.75;
+    margin: 1rem 0; /* Margin for paragraphs */
+}
+
+/* Last updated styling */
+.last-updated {
+    font-size: 0.9rem;
+    text-align: center; /* Center-align updated text */
+}
+
+/* Spacer style */
+.spacer {
+    display: none; /* Hidden for layout */
+}
+
+/* Centered figure styling for images */
+.composer-section figure {
+    margin: 2rem 0; /* Space around figures */
+}
+
+/* Image size control */
+.composer-section figure img {
+    max-width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional styling */
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+    .composer-section h1 {
+        font-size: 2.5rem; /* Smaller heading on mobile */
+    }
+
+    .composer-section p {
+        font-size: 1rem; /* Smaller paragraph on mobile */
+    }
+}
+</style>
+</html>
